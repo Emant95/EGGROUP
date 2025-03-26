@@ -4,7 +4,7 @@
     <script src="../assets/js/init.js"></script>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Index - Everest Group Pvt. Ltd. Bootstrap Template</title>
+    <title>Everest Group Pvt. Ltd.</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -40,6 +40,94 @@
     />
     <!-- Main CSS File -->
     <link href="../assets/css/main.css" rel="stylesheet" />
+
+    <style>
+
+      .slogan {
+          font-size: 1.5rem;
+          font-weight: 300;
+          margin-bottom: 2rem;
+      }
+
+      /* Intro Section */
+      .intro {
+          max-width: 1200px;
+          margin: 4rem auto;
+          padding: 0 2rem;
+          text-align: center;
+      }
+
+      .intro h2 {
+          font-size: 2.5rem;
+          color: #2a4a6d;
+          margin-bottom: 2rem;
+      }
+
+      .intro p {
+          font-size: 1.1rem;
+          color: #555;
+          margin-bottom: 1.5rem;
+          line-height: 1.8;
+      }
+
+      /* Values Section */
+      .values {
+          background: #fff;
+          padding: 4rem 2rem;
+      }
+
+      .values-grid {
+          max-width: 1200px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 2rem;
+      }
+
+      .value-card {
+          text-align: center;
+          padding: 2rem;
+          border-radius: 8px;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s;
+      }
+
+      .value-card:hover {
+          transform: translateY(-5px);
+      }
+
+      .value-card h3 {
+          color: #2a4a6d;
+          margin: 1rem 0;
+      }
+
+      /* CTA Button */
+      /* .cta-button {
+          display: inline-block;
+          background: #2a4a6d;
+          color: white;
+          padding: 1rem 2rem;
+          text-decoration: none;
+          border-radius: 5px;
+          margin-top: 2rem;
+          transition: background 0.3s;
+      }
+
+      .cta-button:hover {
+          background: #1a334d;
+      } */
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+          .header h1 {
+              font-size: 2.5rem;
+          }
+          .slogan {
+              font-size: 1.2rem;
+          }
+      }
+  </style>
+
   </head>
 
   <body class="index-page">
@@ -56,21 +144,113 @@
             >
               <h1>Welcome to <span>Everest Group Pvt. Ltd.</span></h1>
               <p>
-                We are team of talented designers making websites with Bootstrap
+                Elevating Industries, Empowering Communities – Building a Sustainable Future.
               </p>
               <div class="d-flex">
                 <a href="#about" class="btn-get-started">Get Started</a>
-                <a
-                  href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
-                  class="glightbox btn-watch-video d-flex align-items-center"
-                  ><i class="bi bi-play-circle"></i><span>Watch Video</span></a
-                >
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- /Hero Section -->
+
+    <!-- Introduction Section -->
+    <section class="intro">
+        <h2>Shaping Tomorrow's Industries</h2>
+        <p>
+          E.G. Group Pvt. Ltd. was established in 2024 with a vision to drive economic 
+          growth and sustainable development in Nepal. As a dynamic investment 
+          company, E.G. Group has strategically diversified its portfolio across key 
+          sectors including hotel and tourism, manufacturing, hydropower, and more.
+           With a commitment to excellence and innovation, E.G. Group partners with 
+          industry leaders to foster transformative projects that create value for 
+          stakeholders and contribute to Nepal's socio-economic progress. The group’s 
+          investments are guided by a long-term vision of sustainability, community 
+          empowerment, and creating lasting impact.
+           E.G. Group is dedicated to elevating Nepal’s industries by delivering 
+          exceptional results and setting new benchmarks in business performance
+        </p>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="values">
+        <div class="values-grid">
+            <div class="value-card">
+                <h3>Innovation</h3>
+                <p>Pioneering solutions through cutting-edge technology and forward-thinking strategies</p>
+            </div>
+            <div class="value-card">
+                <h3>Integrity</h3>
+                <p>Building trust through ethical practices and transparent operations</p>
+            </div>
+            <div class="value-card">
+                <h3>Sustainability</h3>
+                <p>Committing to environmentally responsible growth and community impact</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container section-title" data-aos="fade-up" style="padding-top: 80px;">
+      <!-- <h2>About</h2> -->
+      <p>
+        <h1>Our Products & Services </h1>
+      </p>
+    </div>
+
+     <!-- Stats Section -->
+     <section id="stats" class="stats section" style="padding-top: 0px;">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div
+            class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-bank"></i>
+            <div class="stats-item">
+              <h4>Private Equity Investment</h4>
+              <p>Investment in Hotel and Tourism industry, Capital Market etc.</p>
+            </div>
+          </div>
+          <!-- End Stats Item -->
+
+          <div
+            class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+          >
+            <i class="bi bi-buildings"></i>
+            <div class="stats-item">
+              <h4>Real Estate Services</h4>
+            <p>Development of Residential Housing, Apartments and Commercial Complexes.</p>
+            </div>
+          </div>
+          <!-- End Stats Item -->
+
+          <div
+            class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+          >
+            <i class="bi bi-wrench-adjustable-circle"></i>
+            <div class="stats-item">
+              <h4>Manufacturing</h4>
+            <p>Producing pure artesian mineral water sourced from the pristine Himalayan ranges of Nepal.</p>
+            </div>
+          </div>
+          <!-- End Stats Item -->
+
+          <div
+            class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+          >
+            <i class="bi bi-people"></i>
+            <div class="stats-item">
+              <h4>Reinsurance Broking Services</h4>
+            <p>Providing comprehensive reinsurance broking services to life and non-life insurers.</p>
+            </div>
+          </div>
+          <!-- End Stats Item -->
+        </div>
+      </div>
+    </section>
+    <!-- /Stats Section -->
+
+
+
     </main>
     <div id="footer-layout"></div>
 
